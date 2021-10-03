@@ -62,3 +62,8 @@ ignore: null
 theme: changani
 deploy:
   type: ''
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: false
+  categories: false
