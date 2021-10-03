@@ -5,13 +5,15 @@
   <link rel="icon" href="/img/favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="<%- page.description || config.description %>" />
+  <!-- FB META TAGS -->
   <meta property="og:title" content="<%- page.title || config.title %>" />
   <meta property="og:url" content="<%- page.permalink || site.url %>" />
   <meta property="og:site_name" content="<%- config.title %>" />
   <meta property="og:type" content="blog" />
   <meta property="og:description" content="<%- page.description || config.description %>" />
-  <meta property="og:image" content="<%- config.url + '/img/firminochangani.png' %>" />
-  <meta name="twitter:image" content="<%- config.url + '/img/firminochangani.png' %>" />
+  <meta property="og:image" content="<%- config.url + "/" + page.cover || 'img/firminochangani.png' %>" />
+  <!-- TWITTER META TAGS -->
+  <meta name="twitter:image" content="<%- config.url + "/" + page.cover || 'img/firminochangani.png' %>" />
   <meta name="twitter:creator" content="@firminochangani" />
   <meta name="twitter:site" content="@firminochangani" />
   <meta name="twitter:card" content="summary_large_image" />
