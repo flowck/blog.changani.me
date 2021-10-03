@@ -3,7 +3,7 @@ title: Using SASS variables inside vue components
 date: 2020-01-22 22:06:00
 metatags: vuejs, sass
 description: Learn how to use SASS variables inside vue components.
-cover: "blog-images/using-sass-variables-inside-vue-components.png"
+cover: "posts/using-sass-variables-inside-vue-components.png"
 ---
 
 [SASS](https://sass-lang.com/) is one of the first CSS [preprocessors](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor), it was developed in 2006 by Natalie Weizenbaum, Chris Eppstein, and Hampton Catlin. Not only SASS is one of the oldest CSS preprocessors, but it is, also the most popular among web developers.
@@ -31,16 +31,6 @@ To add the `prependData` option edit the `vue.config.js` file located in the roo
 <script src="https://gist.github.com/flowck/916cfd399f5df826a1e4d2ccc3eaf9f6.js"></script>
 
 In the code above are the configurations for the node-sass plugin running on webpack. The `prependData` property receives a string with a SASS declaration importing the `sass` files where I defined the global variables. After that, you should be able to reference variables inside of your `.vue` components.
-
-## Acknowledgments
-
-I've been using SASS for a while, and only got to know the creators when I started writing this article, their work was pretty impressive and I would like to acknowledge them on this article.
-
-- [Natalie Weizenbaum](https://github.com/nex3)
-- [Chris Eppstein](https://github.com/chriseppstein)
-- [Hampton Catlin](https://github.com/hcatlin)
-- [Open source contributors: node-sass](https://github.com/sass/node-sass/graphs/contributors)
-- [Open source contributors: sass](https://github.com/sass/sass/graphs/contributors)
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: Generating Typescript interfaces from JSON on VS Code
-cover: blog-images/typescript.jpg
+cover: posts/typescript.jpg
 date: 2020-07-25 18:11:59
 metatags: typescript
 description: Learn how you can generate Typescript interfaces from JSON on VS Code
@@ -148,13 +148,13 @@ After you've installed it in your VS Code, follow the steps below:
 - A new input field will be displayed, paste the JSON code on it and press `ENTER`;
 - The last step is to review and edit the names of the generated interfaces according to your needs;
 
-![VS Code](/blog/blog-images/pasting-json-as-interfaces.gif)
+![VS Code](/posts/pasting-json-as-interfaces.gif)
 
 <h2 id="What-can-you-do-if-you-use-another-editor">What can you do if you use another editor</h2>
 
 I did a quick search for editors like Webstorm and Sublime Text, and unfortunately didn't find an extension that does the same. Maybe I didn't put enough effort into my search, however, the creators of `Past JSON as CODE` created an [online editor](https://app.quicktype.io/) where you can paste JSON code and get the equivalent interface.
 
-![Quicktype](/blog/blog-images/Instantly_parse_JSON_in_any_language___quicktype.png)
+![Quicktype](/posts/Instantly_parse_JSON_in_any_language___quicktype.png)
 
 <h2 id="Conclusion">Conclusion</h2>
 
