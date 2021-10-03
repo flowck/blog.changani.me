@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- partial('partial/head') %>
+  <body>
+    <!-- HEADER -->
+    <%- partial('partial/header') %>
+
+    <main class="main grid-container">
+      <!-- POSTS -->
+      <article class="post">
+        <%- partial('partial/post-head', {item: page}) %>
+
+        <div class="post__content"><%- page.content %></div>
+      </article>
+    </main>
+
+    <!-- FOOTER -->
+    <%- partial('partial/footer') %>
+
+    <!-- SCRIPTS -->
+    <script>
+      document.write(
+        '<script src="http://' +
+          (location.host || "localhost").split(":")[0] +
+          ':35729/livereload.js?snipver=1"></' +
+          "script>"
+      );
+    </script>
+  </body>
+</html>
