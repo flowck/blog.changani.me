@@ -1,0 +1,22 @@
+/* GRID */
+.grid-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* FLEX HELPERS */
+.is-flex {
+  display: flex;
+}
+
+.is-flex--vertical-centered {
+  align-items: center;
+}
+
+.is-flex--horizontal-centered {
+  justify-content: center;
+}
+
+.is-flex--space-between {
+  justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+  --color-dark: #222;
+  --color-gray: #999;
+  --color-white: #fff;
+  --color-highlight: #09c;
+  --color-gray--light: #eee;
+}
+
+@import "partials/grid";
+@import "partials/theme";
+@import "partials/typography";
+@import "partials/header";
+@import "partials/post";
+@import "partials/footer";
+@import "partials/mediaqueries";
