@@ -55,7 +55,7 @@ var reverseString = function (s) {
 };
 ```
 
-By using the mirroring technique these operations had been performed on each iteration:
+By using the mirroring technique the following operations are going to be performed on each iteration:
 
 ```
 What is left will be right.
