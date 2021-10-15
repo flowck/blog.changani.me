@@ -67,3 +67,5 @@ sitemap:
   rel: false
   tags: false
   categories: false
+node_sass:
+  outputStyle: compressed
