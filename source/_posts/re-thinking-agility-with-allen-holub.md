@@ -2,7 +2,7 @@
 title: Re-thinking agility with Allen Holub
 date: 2021-11-27 16:01:19
 metatags: agility
-description: Allen Holub's vision towards agility.
+description: Allen Holub's vision on agility.
 cover: "posts/melani-sosa-cQqAGd3-hh8-unsplash.jpg"
 ---
 
