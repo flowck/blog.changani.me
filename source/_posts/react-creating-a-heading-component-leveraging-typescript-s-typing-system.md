@@ -2,7 +2,7 @@
 title: "React: Creating a Heading component leveraging Typescript’s typing system"
 date: 2021-12-25 21:41:00
 metatags: React, Typescript
-description: Write a function that reverses a string. The input string is given as an array of characters s.
+description: Implementing a Heading component using React.createElement() and Typescript.
 cover: "posts/heading-component.jpg"
 ---
 
