@@ -47,7 +47,7 @@ Secondly, I have used Typescript’s [union type](https://www.typescriptlang.org
 interface Props extends Partial<Omit<HTMLHeadingElement, "children">> {}
 ```
 
-In case you wondered what is this block of code doing, here is the explanation: I needed to inherit all the attributes of the heading elements, hence the `extends` statement. However, I did not want to make them explicitly mandatory, therefore I have used the `Partial` type to make all the properties defined in `HTMLHeadingElement` interface optional. I wanted one more thing, which was to override the `children` property from the interface aforementioned, therefore I have used the `Omit` type to achieve that.
+In case you wondered what is this block of code doing, here is the explanation: I needed to inherit all the attributes of heading elements, hence the `extends` statement. However, I did not want to make them explicitly mandatory, therefore I have used the `Partial` type to make all the properties defined in `HTMLHeadingElement` interface optional. I wanted one more thing, which was to override the `children` property from the interface aforementioned, therefore I have used the `Omit` type to achieve that.
 
 ## Conclusion
 
