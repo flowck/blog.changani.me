@@ -23,9 +23,9 @@ jest.mock("react-router-dom", () => {
 
 ## Defining `useLocation`´s mock
 
-Before defining the `useLocation` ’s mock, I would recommend logging the value returned by the hook to make sure that the mock  contains the necessary properties to prevent breaking the application. You’d do that by calling `console.log()` inside the component calling the hook.
+Before defining the `useLocation` ’s mock, I would recommend logging the value returned by the hook to make sure that the mock contains the necessary properties to prevent breaking the application. You’d do that by calling `console.log()` inside the component calling the hook.
 
-After have checked the hook’s data structure, the mock can actually be defined with an arrow function that shall return the intended value during test execution. 
+After having checked the hook’s data structure, the mock can be defined with an arrow function that shall return the intended value during test execution. 
 
 ```jsx
 jest.mock("react-router-dom", () => {
