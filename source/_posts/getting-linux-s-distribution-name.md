@@ -1,5 +1,5 @@
 ---
-title: Getting Linux's distribution name
+title: Getting Linux distribution's name
 date: 2022-05-22 14:19:00
 metatags: linux
 description: Getting Linux's distribution name
