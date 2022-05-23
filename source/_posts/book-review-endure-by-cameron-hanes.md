@@ -10,3 +10,4 @@ I've been listening to the book Endure by Cameron Hanes which has recently been 
 
 Even though I haven't finished the book, I couldn't help but to write a few words about how it has impacted my perspective regarding to physical training as a way to support our dreams and goals.
 
+---
