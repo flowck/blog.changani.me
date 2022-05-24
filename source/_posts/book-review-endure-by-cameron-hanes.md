@@ -1,5 +1,5 @@
 ---
-title: Book review: Endure by Cameron Hanes
+title: Book review - Endure by Cameron Hanes
 date: 2022-06-23 13:49:00
 metatags: book
 description: The impact of the book Endure by Cameron Hanes in my life.
@@ -19,5 +19,3 @@ When I found this book I was already working on myself to regain flexibility in 
 Even though this blog post isn't a book review per se, I'd recommend this book to anyone interested in learning about the path it takes to achieve excellence at a craft, and how body conditioning plays a big part in it.
 
 Keep hammering.
-
----
