@@ -1,9 +1,9 @@
 ---
 title: Book review: Endure by Cameron Hanes
-date: 2022-05-23 20:00:00
+date: 2022-06-23 13:49:00
 metatags: book
 description: The impact of the book Endure by Cameron Hanes in my life.
-cover: "posts/endure-by-cameron-hanes.jpg"
+cover: "posts/endure-by-cameron-hanes.webp"
 ---
 
 I've just finished listening to the book Endure by Cameron Hanes, which has recently been launched on Audible and narrated by the author himself.
