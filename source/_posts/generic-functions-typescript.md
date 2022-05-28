@@ -1,9 +1,9 @@
 ---
-title: "Some views on generics functions | Typescript"
+title: "Generics functions | Typescript"
 date: 2020-07-04 16:25:24
 metatags: typescript
 description: In this post I talk about Typescript's generic functions, I show tow practical examples replacing any with generics
-cover: "posts/some-views-on-generic-functions-typescript.jpg"
+cover: "posts/generic-functions-typescript.jpg"
 ---
 
 I started learning Typescript at the beginning of 2020 and since I came from Javascript, I became quite comfortable with my skills in this language once I learned how to create interfaces because suddenly I didn't need to use **any** as a type of variables that would receive object literals. I knew Typescript was more powerful than that, and finally, I recently decided to learn more about its features and apply it daily.
