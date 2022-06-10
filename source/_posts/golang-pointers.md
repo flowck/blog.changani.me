@@ -8,7 +8,7 @@ cover: ""
 
 # Pointers
 
-A pointer holds the address of a variable in memory. One can say that it points to the address in memory rather than an actual value;
+A pointer holds a variable's address in the computer's memory. One can say that once a pointer is created, its value is just an address that lead you to where in the computer's memory the program will store the actual data.
 
 ## Example
 
@@ -21,7 +21,7 @@ func main() {
 
 	// Creating a pointer
 	var fullNamePtr *string = new(string)
-	fmt.Println(fullNamePtr) // Prints the address
+	fmt.Println(fullNamePtr) // Prints the address: 0x14000110230
 	
 	// Storing value in the pointer's address by dereferencing it
 	*fullNamePtr = "John Doe"
