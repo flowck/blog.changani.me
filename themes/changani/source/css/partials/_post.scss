@@ -73,6 +73,11 @@
     margin-left: 18px;
   }
 
+  ul li ul,
+  ol li ol {
+    margin-top: 0;
+  }
+
   li:not(:last-child) {
     margin-bottom: 5px;
   }
