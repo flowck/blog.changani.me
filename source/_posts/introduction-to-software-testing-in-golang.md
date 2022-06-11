@@ -8,6 +8,7 @@ cover: "posts/golang.png"
 
 ![Golang](/posts/golang.png)
 
+
 ## Testing Philosophy
 
 Unlike other programming languages, Go's standard library doesn't come with methods to perform assertions, it relies on regular conditional statements and comparison operators to assert what's expected of an operation. INTERESTING. 
@@ -61,3 +62,12 @@ func TestAddition(t *testing.T) {
 - httpexpect
 - gomock
 - go-sqlmock
+
+## Writing Tests
+
+### Reporting Test Failures
+
+There are two type of failures supported by Go's standard library
+
+- Immediate failure
+- Non-immediate failure

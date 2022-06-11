@@ -34,3 +34,54 @@ func main() {
 	fmt.Println(&country)
 }
 ```
+
+## When to use pointers
+
+Since I come from the Javascript world, despite learning the syntax to create a pointer, learning when to use them wasn't that obvious.
+
+For instance, in Javascript, it is possible to mutate a property from literal object inside a function by just updating the argument passed:
+
+```javascript
+const person = {
+	name: "John Doe"
+}
+
+function updateName(person, name) {
+	person.name = name;
+}
+
+updateName(person, "Jane Smith");
+
+console.log(person); // { name: "Jane Smith" }
+```
+
+In Go, such operation wouldn't mutate the struct passed as argument, unless the function `updateName` was declared with an interface ready to receive a pointer, rather than an actual value.
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+type Person struct {
+	Name string
+}
+
+func updatePersonName(person *Person, name string) {
+	person.Name = name
+}
+
+func main() {
+	fmt.Println("Go fundamentals")
+
+	person := Person{Name: "John Doe"}
+
+	fmt.Println(person) // {John Doe}
+
+	updatePersonName(&person, "Jane Smith")
+
+	fmt.Println(person) // {Jane Smith}
+}
+
+```
