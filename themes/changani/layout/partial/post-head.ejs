@@ -1,6 +1,11 @@
 <header class="post__head">
   <div class="post__head__meta">
     <span><%- item.date.format(config.date_format) %></span>
+    <% if (item.metatags) { %>
+      <% item.metatags.split(",").forEach(function(tag){ %>
+        <span class="post__head__tag"><%- tag %></span>
+      <% }); %>
+    <% } %>
   </div>
   <h1>
     <a href="<%- item.permalink %>"><%- item.title %></a>

@@ -1,8 +1,8 @@
 ---
-title: Introduction to Software Testing in GoLang 
+title: Notes - Introduction to Software Testing in Go
 date: 2022-06-10 21:30:00
 metatags: golang
-description: Notest about setting up a test suit in GoLang
+description: Notes on setting up a test suit in Go
 cover: "posts/golang.png"
 ---
 

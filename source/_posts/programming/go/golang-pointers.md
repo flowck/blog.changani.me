@@ -1,12 +1,12 @@
 ---
-title: Golang's pointers
+title: Go's pointers
 date: 2022-06-10 18:58:00
 metatags: golang
-description: Golang's pointers
+description: Go's pointers
 cover: "posts/golang.png"
 ---
 
-![Golang](/posts/golang.png)
+![Go Programming Language](/posts/golang.png)
 
 # Pointers
 
