@@ -2,7 +2,7 @@
 title: Go/SQL - Fixing the error - Converting NULL to string is unsupported error
 date: 2022-06-26 03:59:00
 metatags: golang
-description: Fixing the error "Converting NULL to string is unsupported error" thrown when querying a nullable field in Go.
+description: Fixing the error - Converting NULL to string is unsupported error; thrown when querying a nullable field in Go.
 cover: "posts/golang.png"
 ---
 
